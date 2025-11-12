@@ -304,3 +304,157 @@ font-size: 33px;
 html{
   scroll-behavior: smooth;
 }
+
+
+
+/* responsive */
+
+/* ====================== RESPONSIVE FIXES ======================= */
+
+/* -------- Navbar -------- */
+@media (max-width: 992px) {
+  .logo {
+    position: static;
+    margin: 10px auto;
+    display: block;
+  }
+
+  .navbar {
+    height: auto;
+    padding: 10px 0;
+  }
+
+  .navbar-collapse {
+    background-color: #ffe4a6;
+    text-align: center;
+    padding: 15px 0;
+  }
+
+  .navbar-nav {
+    gap: 10px !important;
+  }
+}
+
+/* -------- Carousel -------- */
+.carousel-item img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .custom-arrow {
+    width: 30px;
+    height: 30px;
+    font-size: 22px;
+  }
+}
+
+/* -------- Treat Section -------- */
+@media (max-width: 768px) {
+  #mid .row {
+    flex-direction: column;
+  }
+
+  .yahhhh {
+    order: 2;
+  }
+
+  .child {
+    order: 1;
+    padding: 40px 10px;
+  }
+
+  .head {
+    text-align: center;
+    padding: 80px 0;
+  }
+
+  .BTN2 {
+    margin-left: 0;
+    margin-top: 15px;
+  }
+}
+
+/* -------- Visit & Over 100 Years -------- */
+@media (max-width: 768px) {
+  .yoooo,
+  .yeee {
+    text-align: center;
+    padding: 30px 15px;
+  }
+
+  .btn3 {
+    margin: 10px;
+  }
+}
+
+/* -------- Wood Section -------- */
+@media (max-width: 992px) {
+  #tshirt {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 30px 10px;
+  }
+
+  #tshirt img {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  #tshirttext {
+    padding: 30px 0;
+  }
+}
+
+/* -------- Sweet Moments (End Images) -------- */
+@media (max-width: 992px) {
+  .endgrid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  .endgrid {
+    grid-template-columns: 1fr;
+  }
+
+  .endhead {
+    font-size: 40px;
+  }
+}
+
+/* -------- Footer -------- */
+@media (max-width: 768px) {
+  .iconns,
+  .iconnns,
+  .links {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .iconn,
+  .iconnn {
+    padding: 8px 0;
+  }
+
+  .link {
+    margin: 8px;
+    font-size: 25px;
+  }
+}
+
+/* -------- General Text Scaling -------- */
+@media (max-width: 576px) {
+  h1, h2, h3 {
+    font-size: calc(1rem + 1.2vw);
+  }
+
+  p {
+    font-size: 14px;
+  }
+}
